@@ -1,0 +1,210 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Beneficios y Pensiones",
+            "company": "Heinsohn",
+            "photo": "assets/img/portfolio-pensiones-1.jpg",
+            "isLoading": true
+        },
+        {
+            "id": 2,
+            "title": "Transborder",
+            "company": "Heinsohn",
+            "photo": "assets/img/portfolio-transborder-1.jpg",
+            "isLoading": true
+        },
+        {
+            "id": 3,
+            "title": "GamesArena",
+            "company": "DevPro",
+            "photo": "assets/img/portfolio-games-arena-1.jpg",
+            "isLoading": true
+        },
+        {
+            "id": 4,
+            "title": "illuNotes",
+            "company": "DevPro",
+            "photo": "assets/img/portfolio-illunotes-1.jpg",
+            "isLoading": true
+        }
+    ],
+    "images_project": [
+        {
+            "id": 1,
+            "id_project": 1,
+            "description": {
+                "es": "La Gestora Pública de la Seguridad Social de Largo Plazo es una Empresa Pública ubicada en La Paz, Bolivia, que tiene como objeto la administración y representación de los Fondos del Sistema Integral de Pensiones, gestión de prestaciones, beneficios y otros pagos del Sistema Integral de Pensiones, establecidos en la presente Ley 065 de 10 de diciembre de 2010.",
+                "en": "The Public Manager of Long-Term Social Security is a Public Company located in La Paz, Bolivia, responsible for the administration and representation of the Funds of the Comprehensive Pension System, as well as the management of benefits, payments, and other provisions of the Comprehensive Pension System established by Law 065 of December 10, 2010."
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "url": "assets/img/portfolio-pensiones-1.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 2,
+                    "url": "assets/img/portfolio-pensiones-2.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 3,
+                    "url": "assets/img/portfolio-pensiones-3.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 4,
+                    "url": "assets/img/portfolio-pensiones-4.jpg",
+                    "isLoading": true
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "id_project": 2,
+            "description": {
+                "es": "Transborder es un sistema dedicado a la prestación del servicio de agenciamiento de transporte internacional, exportación e importación. Brindando soluciones complementarias para el manejo, desarrollo y coordinación integral de carga a nivel mundial.",
+                "en": "Transborder is a system dedicated to providing international transportation agency services for export and import. It offers complementary solutions for the comprehensive management, development, and coordination of cargo worldwide."
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "url": "assets/img/portfolio-transborder-1.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 2,
+                    "url": "assets/img/portfolio-transborder-2.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 3,
+                    "url": "assets/img/portfolio-transborder-3.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 4,
+                    "url": "assets/img/portfolio-transborder-4.jpg",
+                    "isLoading": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "id_project": 3,
+            "description": {
+                "es": "GamesArena es un sistema de apuestas especializado en eSports, donde los usuarios pueden apostar en competencias de videojuegos profesionales. Este modelo permite a los aficionados participar activamente en sus juegos favoritos. Además, los jugadores tienen la opción de retar a otros y apostar una partida, lo que agrega un componente competitivo y personal a la experiencia. Combina la emoción de los deportes electrónicos con la dinámica de las apuestas, ofreciendo una experiencia inmersiva y dinámica para los entusiastas de los videojuegos.",
+                "en": "GamesArena is a betting system specialized in eSports, where users can bet on professional video game competitions. This model allows fans to actively participate in their favorite games. Additionally, players have the option to challenge others and bet on a match, adding a competitive and personal element to the experience. It combines the excitement of electronic sports with the dynamics of betting, offering an immersive and dynamic experience for video game enthusiasts."
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "url": "assets/img/portfolio-games-arena-1.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 2,
+                    "url": "assets/img/portfolio-games-arena-2.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 3,
+                    "url": "assets/img/portfolio-games-arena-3.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 4,
+                    "url": "assets/img/portfolio-games-arena-4.jpg",
+                    "isLoading": true
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "id_project": 4,
+            "description": {
+                "es": "Illunotes es una aplicación interactiva que permite a tu audiencia reproducir tus diapositivas y tomar notas en tiempo real durante una presentación o reunión. La compatibilidad con entradas flexibles permite escribir, dibujar y dictar, y puedes agregar imágenes, videos y anotaciones para disfrutar de una experiencia de toma de notas enriquecida, todo almacenado en tu cuenta personal en la nube. También es fácil compartir tus notas con otros participantes.",
+                "en": "Illunotes is an interactive application that allows your audience to view your slides and take notes in real time during a presentation or meeting. Its compatibility with flexible inputs enables writing, drawing, and dictation. You can also add images, videos, and annotations to enjoy an enriched note-taking experience, all stored in your personal cloud account. It is also easy to share your notes with other participants."
+            },
+            "images": [
+                {
+                    "id": 1,
+                    "url": "assets/img/portfolio-illunotes-1.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 2,
+                    "url": "assets/img/portfolio-illunotes-2.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 3,
+                    "url": "assets/img/portfolio-illunotes-3.jpg",
+                    "isLoading": true
+                },
+                {
+                    "id": 4,
+                    "url": "assets/img/portfolio-illunotes-4.jpg",
+                    "isLoading": true
+                }
+            ]
+        }
+    ],
+
+    "companies" : [
+        {
+            "id":1,
+            "name":"Idea Soluciones",
+            "logo":"assets/img/logo-idea-sol-company.png"
+        },
+        {
+            "id":2,
+            "name":"DevPro",
+            "logo":"assets/img/logo-devpro-company.png"
+        },
+        {
+            "id":3,
+            "name":"Gestora BO",
+            "logo":"assets/img/logo-gestora-company.png"
+        },
+        {
+            "id":4,
+            "name":"Heinsohn Business Technology",
+            "logo":"assets/img/logo-hbt-company.png"
+        },
+        {
+            "id":5,
+            "name":"Transborder",
+            "logo":"assets/img/logo-transborder-company.png"
+        },
+
+        {
+            "id":6,
+            "name":"Kaukita",
+            "logo":"assets/img/logo-kaukita-company.png"
+        }
+
+    ],
+
+    "other_projects" : [
+        {
+            "id" : 1,
+            "name" : "Kiosco",
+            "video" : "assets/videos/kiosco-video.mp4",
+            "description": {
+                "es": "Kiosco es una propuesta dinámica e interactiva que ofrece al usuario una experiencia envolvente, con un flujo visual continuo y animado mientras explora el contenido. La idea surge a partir de las necesidades específicas de la empresa, con el objetivo de ofrecer una propuesta de valor sólida, que se valida mediante una prueba piloto.",
+                "en": "Kiosco is a dynamic and interactive proposal that offers the user an immersive experience, with a continuous and animated visual flow as they explore the content. The idea originates from the specific needs of the company, aiming to provide a solid value proposition, which is validated through a pilot test."
+            }
+        },
+        {
+            "id" : 2,
+            "name" : "Micro Dreams",
+            "video" : "assets/videos/computer-vision.mp4",
+            "description": {
+                "es": "Proyecto de grado desarrollado en Python con OpenCV, aplicando técnicas de visión por computadora. En esta versión beta, se implementó un sistema inicial que detecta en tiempo real la apertura y cierre de ojos como indicador primario de microsueños, enfocado en la seguridad y prevención de accidentes.",
+                "en": "A thesis project developed in Python using OpenCV and computer vision techniques. This beta version implemented a real-time system to detect eye opening and closing as a primary indicator of microsleeps, focusing on safety and accident prevention."
+            }
+        }
+    ]
+}
