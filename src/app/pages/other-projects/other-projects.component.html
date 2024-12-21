@@ -8,7 +8,7 @@
 
     <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2 justify-items-center"
         >
-        <div *ngFor="let project of projectList" class="max-w-sm rounded overflow-hidden shadow-lg bg-white mt-6">
+        <div *ngFor="let project of projectList" class="max-w-sm mx-5 rounded overflow-hidden shadow-lg bg-white mt-6">
             <div class="w-full h-auto">
                 <video controls class="w-full h-full object-cover" poster="{{project.poster}}">
                     <source src="{{project.video}}" type="video/mp4" />
