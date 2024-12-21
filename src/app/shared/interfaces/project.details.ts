@@ -18,6 +18,7 @@ export interface OtherProject {
     id:number,
     name:string,
     video:string,
+    poster:string,
     description : {
         es:string;
         en:string;

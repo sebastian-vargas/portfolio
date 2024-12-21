@@ -192,6 +192,7 @@
             "id" : 1,
             "name" : "Kiosco",
             "video" : "assets/videos/kiosco-video.mp4",
+            "poster" : "assets/img/poster-kiosco.jpg",
             "description": {
                 "es": "Kiosco es una propuesta dinámica e interactiva que ofrece al usuario una experiencia envolvente, con un flujo visual continuo y animado mientras explora el contenido. La idea surge a partir de las necesidades específicas de la empresa, con el objetivo de ofrecer una propuesta de valor sólida, que se valida mediante una prueba piloto.",
                 "en": "Kiosco is a dynamic and interactive proposal that offers the user an immersive experience, with a continuous and animated visual flow as they explore the content. The idea originates from the specific needs of the company, aiming to provide a solid value proposition, which is validated through a pilot test."
@@ -201,6 +202,7 @@
             "id" : 2,
             "name" : "Micro Dreams",
             "video" : "assets/videos/computer-vision.mp4",
+            "poster" : "assets/img/poster-vision.jpg",
             "description": {
                 "es": "Proyecto de grado desarrollado en Python con OpenCV, aplicando técnicas de visión por computadora. En esta versión beta, se implementó un sistema inicial que detecta en tiempo real la apertura y cierre de ojos como indicador primario de microsueños, enfocado en la seguridad y prevención de accidentes.",
                 "en": "A thesis project developed in Python using OpenCV and computer vision techniques. This beta version implemented a real-time system to detect eye opening and closing as a primary indicator of microsleeps, focusing on safety and accident prevention."

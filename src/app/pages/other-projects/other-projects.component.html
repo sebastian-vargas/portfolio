@@ -10,7 +10,7 @@
         >
         <div *ngFor="let project of projectList" class="max-w-sm rounded overflow-hidden shadow-lg bg-white mt-6">
             <div class="w-full h-auto">
-                <video controls class="w-full h-full object-cover">
+                <video controls class="w-full h-full object-cover" poster="{{project.poster}}">
                     <source src="{{project.video}}" type="video/mp4" />
                 </video>
             </div>
