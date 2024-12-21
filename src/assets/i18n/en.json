@@ -1,0 +1,76 @@
+{
+    "greeting.title":"Hello I'm",
+    "languaje":"English",
+
+    "button.go-back":"Go Back",
+    
+    "menu.about":"About",
+    "menu.services":"Services",
+    "menu.portfolio":"Portfolio",
+    "menu.clients":"Clients",
+    "menu.work":"Work",
+    "menu.stadistics":"Statistics",
+    "menu.blog":"Blog",
+    "menu.contact":"Contact",
+    "menu.other-projects":"Other Projects",
+
+    "lets-connect":"Let's connect",
+
+    "about.who-am-i":"Who am i?",
+    "about.profession":"I am Johan Vargas, a Systems and Computing Engineer.",
+    "about.description":"Systems and Computing Engineer, passionate about design, optimization, and creating solid, scalable solutions. I am motivated by teamwork, efficient project structuring, and promoting good development practices that positively impact results. I firmly believe that teamwork is essential for achieving innovative solutions, as shared ideas and collaboration are key to tackling the most complex challenges. I am committed to continuously improving the user experience and innovation, ensuring that systems are not only technically robust but also intuitive, accessible, and centered around the real needs of people. (This page is developed in Angular 19, released in November 2024 by Google).",
+    "about.connect-with-me":"Connect with me",
+
+    "services.web-development":"Web Development",
+    "services.software-architecture":"Software Architecture",
+    "services.mobile-development":"Mobile Development",
+    "services.data-base":"Databases",
+    "services.design":"Design UX/UI",
+    "services.data-analysis":"Data Analysis",
+    "services.title-im-good-at":"Here's what I'm good at",
+
+    "portfolio.title-check":"Check out my Portfolio",
+    "portfolio.subtitle-have-done":"Here's what I have done with the past",
+
+    "clients.title-client":"My latest clients",
+
+    "work.title-experience":"My work experience",
+    "work.heinsohn-time":"Dec 2021 - To Date",
+    "work.heinsohn-position":"Development Engineer",
+    "work.heinsohn":"Improved the efficiency and scalability of systems by implementing cross-cutting modules, reactive programming, and SOLID principles. Established foundations for micro frontends and optimized code and performance, reducing response times and increasing stability. Trained new collaborators and promoted best practices. Worked in a team to identify improvements and manage projects, enhancing collaboration and ensuring quality results.",
+
+    "work.devpro-time":"Jun 2020 - Dec 2021",
+    "work.devpro-position":"Full Stack Developer",
+    "work.devpro":"I developed and deployed full-stack solutions using technologies like ReactJs, AngularJs, Ionic, and PHP, creating applications for web, iOS, and Android platforms. I applied agile methodologies for project delivery and trained developers in the Ionic and Angular frameworks. Additionally, I optimized API consumption by modeling data and designed tools that improved collaboration and productivity within technology teams. I also built user interfaces (UI) focused on user experience (UX) based on the provided designs.",
+
+    "work.idea-time":"Jan 2020 - Jun 2020",
+    "work.idea-position":"Frontend Developer",
+    "work.idea":"I worked closely with teams to ensure that software solutions provided a superior client experience. I led initiatives with the design team to improve the company’s design process and created prototypes for new features. I conducted performance testing and optimization.",
+
+    "stadistics.projects":"Finished Projects",
+    "stadistics.awards":"Awards Won",
+    "stadistics.clients":"Happy Clients",
+    "stadistics.bugs":"Bugs Fixed",
+
+    "blog.neural": "Neuroscience",
+    "blog.neural-description": "In the books *The Secret Life of the Mind* and *The Power of Words* by Mariano Sigman, I liked how he approaches, from both a scientific and personal perspective, the topic of neuroscience, a field that I consider very important for understanding how our mind works in everyday life, both in our decisions, emotions, the rational, and the subconscious.",
+
+    "blog.space":"Space",
+    "blog.space-description":"I love space and the James Webb telescope because they offer a unique opportunity to explore the universe. The James Webb, with its advanced ability to observe the cosmos in infrared wavelengths, allows us to see beyond what other telescopes have been able to. Its images of distant galaxies and exoplanets bring us closer to a deeper understanding of the universe.",
+
+    "blog.ia":"AI",
+    "blog.ia-description":"Nuclear energy, with its ability to provide continuous and powerful energy, is crucial for powering AI systems that demand large amounts of power. This synergy would not only drive technological advancement but could also be the key to a smarter and more sustainable future.",
+
+    "blog.read-more":"Read more",
+    "blog.like":"I also like",
+
+    "contact.information":"Contact Information",
+    "contact.phone":"My phone",
+    "contact.email":"My email",
+    "contact.location":"Location",
+
+    "other.projects-title":"Other projects",
+    "other.projects-sub":"Some concept ideas",
+
+    "reflection":"Success is: Knowing your purpose in life, Growing to reach your fullest potential, and Planting seeds that benefit others."
+}

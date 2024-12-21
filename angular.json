@@ -21,18 +21,22 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/styles/main.css",
+              "src/assets/styles/main.min.css"
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
+              "baseHref": "https://sebastian-vargas.github.io/portfolio/",
               "budgets": [
                 {
                   "type": "initial",
@@ -79,16 +83,22 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/styles/main.css",
+              "src/assets/styles/main.min.css"
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

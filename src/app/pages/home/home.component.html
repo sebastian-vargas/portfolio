@@ -1,0 +1,58 @@
+<div id="about">
+    <app-about></app-about>
+</div>
+
+
+@defer (hydrate on viewport) {
+<div id="services">
+    <app-services></app-services>
+</div>
+}
+
+@defer (hydrate on viewport) {
+    <div id="portfolio">
+        <app-portfolio></app-portfolio>
+    </div>
+}@loading {
+    <div class="skeleton-loader h-80 w-full bg-gray-200 animate-pulse"></div>
+}
+
+
+@defer (hydrate on viewport) {
+    <div id="clients">
+        <app-clients></app-clients>
+    </div>
+}
+
+
+@defer (hydrate on viewport) {
+<div id="work">
+    <app-work></app-work>
+</div>
+}
+
+@defer (hydrate on viewport) {
+    <div id="other-projects">
+        <app-other-projects></app-other-projects>
+    </div>
+}
+
+@defer (hydrate on viewport) {
+<div id="statistics">
+    <app-statistics></app-statistics>
+</div>
+}
+
+
+@defer (hydrate on viewport) {
+<div id="blog">
+    <app-blog></app-blog>
+</div>
+}
+
+
+@defer (hydrate on viewport) {
+<div id="contact">
+    <app-contact></app-contact>
+</div>
+}

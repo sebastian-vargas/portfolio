@@ -1,0 +1,41 @@
+<div id="presentation"  *ngIf="project.length !== 0" class="px-15 pt-2">
+    <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-3">
+        <div>
+            <img ngSrc="{{project[0].images[0].url}}" width="1920" priority
+            height="1080"  class="w-full shadow" alt="project-image" />
+        </div>
+
+        <div class="lg:col-span-2">
+            <div *ngIf="!isMobile" class="flex justify-end items-start mb-4">
+                <button (click)="scrollToPortfolio()"
+                    class="flex items-center justify-center rounded bg-primary px-8 py-2 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
+                    <i class="bx bx-chevron-left relative -right-2 text-3xl"></i>
+                    {{'button.go-back' | translate}}
+                </button>
+            </div>
+            
+            <p class="items-center">{{ currentLanguage === 'en' ? project[0].description.en : project[0].description.es }}</p>
+        </div>
+    </div>
+
+    <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-3">
+            <img *ngFor="let image of project[0].images.slice(1)"
+            class="w-full shadow"
+            ngSrc="{{image.url}}" 
+            width="1920" 
+            height="1080" 
+            alt="project-image"
+            priority
+          />
+    </div>
+
+    <!-- Button Mobile-->
+    <div class="flex justify-center items-center my-5">
+        <button *ngIf="isMobile" (click)="scrollToPortfolio()"
+            class="flex items-center justify-center rounded bg-primary px-8 py-2 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
+            <i class="bx bx-chevron-left relative -right-2 text-3xl"></i>
+            {{'button.go-back' | translate}}
+        </button>
+    </div>
+
+</div>

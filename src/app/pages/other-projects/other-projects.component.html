@@ -1,0 +1,24 @@
+<div class="py-6">
+    <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+        {{'other.projects-title'|translate}}
+    </h2>
+    <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+        {{'other.projects-sub'|translate}}
+    </h4>
+
+    <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2 justify-items-center"
+        >
+        <div *ngFor="let project of projectList" class="max-w-sm rounded overflow-hidden shadow-lg bg-white mt-6">
+            <div class="w-full h-auto">
+                <video controls class="w-full h-full object-cover">
+                    <source src="{{project.video}}" type="video/mp4" />
+                </video>
+            </div>
+    
+            <div class="px-6 py-4">
+                <p class="text-gray-700 text-base">{{ currentLanguage === 'en' ? project.description.en : project.description.es }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+

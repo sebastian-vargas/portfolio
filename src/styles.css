@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grayscale-logo {
+    filter: grayscale(100%) brightness(80%); /* Aplica escala de grises y ajusta el brillo */
+  }
+  
+.grayscale-logo:hover {
+    filter: grayscale(100%) brightness(60%); /* Hace la imagen un poco más brillante al hacer hover */
+}
+
+.grayscale-static {
+  filter: grayscale(100%) brightness(60%); /* Hace la imagen un poco más brillante al hacer hover */
+}
