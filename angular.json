@@ -36,7 +36,11 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "https://sebastian-vargas.github.io/portfolio/",
+              "optimization": true,
+              "sourceMap": false,
+              "namedChunks": false,
+              "aot": true,
+              "baseHref": "https://github.com/sebastian-vargas/portfolio",
               "budgets": [
                 {
                   "type": "initial",
