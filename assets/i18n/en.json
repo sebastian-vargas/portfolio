@@ -1,4 +1,4 @@
-{
+﻿{
     "greeting.title":"Hello I'm",
     "languaje":"English",
 
@@ -17,16 +17,16 @@
     "lets-connect":"Let's connect",
 
     "about.who-am-i":"Who am i?",
-    "about.profession":"I am Johan Vargas, a Systems and Computing Engineer.",
-    "about.description":"Systems and Computing Engineer, passionate about design, optimization, and creating solid, scalable solutions. I am motivated by teamwork, efficient project structuring, and promoting good development practices that positively impact results. I firmly believe that teamwork is essential for achieving innovative solutions, as shared ideas and collaboration are key to tackling the most complex challenges. I am committed to continuously improving the user experience and innovation, ensuring that systems are not only technically robust but also intuitive, accessible, and centered around the real needs of people. (This page is developed in Angular 19, released in November 2024 by Google).",
+    "about.profession":"I am Johan Vargas, AI Engineer & Full Stack Engineer.",
+    "about.description":"AI Engineer and Full Stack Engineer with 6+ years of experience building scalable digital products, enterprise applications, and AI-powered systems. Specialized in LLM integrations, Retrieval-Augmented Generation (RAG), semantic search, AI agents, and intelligent backend architectures using Python, FastAPI, Qdrant, and Microsoft Azure AI Foundry. Strong experience designing modern full-stack applications with React, Next.js, Angular, Node.js, and TypeScript — combining scalable frontend architectures with robust backend systems and cloud infrastructure.",
     "about.connect-with-me":"Connect with me",
 
     "services.web-development":"Web Development",
     "services.software-architecture":"Software Architecture",
-    "services.mobile-development":"Mobile Development",
+    "services.ai-engineering":"AI Engineering",
     "services.data-base":"Databases",
-    "services.design":"Design UX/UI",
-    "services.data-analysis":"Data Analysis",
+    "services.cloud-devops":"Cloud & DevOps",
+    "services.mobile-development":"Mobile Development",
     "services.title-im-good-at":"Here's what I'm good at",
 
     "portfolio.title-check":"Check out my Portfolio",
@@ -35,17 +35,25 @@
     "clients.title-client":"My latest clients",
 
     "work.title-experience":"My work experience",
-    "work.heinsohn-time":"Dec 2021 - To Date",
-    "work.heinsohn-position":"Development Engineer",
-    "work.heinsohn":"Improved the efficiency and scalability of systems by implementing cross-cutting modules, reactive programming, and SOLID principles. Established foundations for micro frontends and optimized code and performance, reducing response times and increasing stability. Trained new collaborators and promoted best practices. Worked in a team to identify improvements and manage projects, enhancing collaboration and ensuring quality results.",
+    "work.boz-ai-time":"Apr 2026 - Present",
+    "work.boz-ai-position":"AI Engineer | Full Stack Engineer",
+    "work.boz-ai":"Leading the transformation of the company's ERP/CRM into an AI-powered platform, integrating intelligent workflows and AI-driven features. Designed and implemented RAG pipelines with semantic search using Qdrant. Built AI backend services with Python and FastAPI integrated into full-stack architectures. Developed AI agents using MCP to automate workflows and connect enterprise tools.",
+
+    "work.boz-senior-time":"Apr 2025 - Mar 2026",
+    "work.boz-senior-position":"Senior Software Engineer",
+    "work.boz-senior":"Led the modernization and complete architectural redesign of the company's internal ERP/CRM platform using Next.js, React, .NET, and Node.js. Refactored a legacy platform into a modern and scalable architecture in just over one month. Introduced AI-driven workflows and intelligent automation, creating the technical foundation for the company's AI initiatives.",
+
+    "work.heinsohn-time":"Dec 2021 - Mar 2025",
+    "work.heinsohn-position":"Senior Software Engineer",
+    "work.heinsohn":"Developed enterprise web applications using Angular, TypeScript, Node.js, and scalable frontend architectures. Implemented microfrontend solutions and reactive programming patterns, reducing load times by 30%. Optimized memory management and applied software design patterns, reducing memory leaks by 40%. Led training of new team members and promoted engineering best practices.",
 
     "work.devpro-time":"Jun 2020 - Dec 2021",
-    "work.devpro-position":"Full Stack Developer",
-    "work.devpro":"I developed and deployed full-stack solutions using technologies like ReactJs, AngularJs, Ionic, and PHP, creating applications for web, iOS, and Android platforms. I applied agile methodologies for project delivery and trained developers in the Ionic and Angular frameworks. Additionally, I optimized API consumption by modeling data and designed tools that improved collaboration and productivity within technology teams. I also built user interfaces (UI) focused on user experience (UX) based on the provided designs.",
+    "work.devpro-position":"Full Stack Software Engineer",
+    "work.devpro":"Developed full-stack applications using React, Angular, Ionic, Node.js, and TypeScript for multiple client projects. Designed and optimized backend services with Node.js and REST APIs, improving server performance by 25%. Implemented CI/CD pipelines and proposed internal tools that increased team productivity by 20%.",
 
     "work.idea-time":"Jan 2020 - Jun 2020",
-    "work.idea-position":"Frontend Developer",
-    "work.idea":"I worked closely with teams to ensure that software solutions provided a superior client experience. I led initiatives with the design team to improve the company’s design process and created prototypes for new features. I conducted performance testing and optimization.",
+    "work.idea-position":"Software Developer",
+    "work.idea":"Built frontend prototypes and improved UX/UI experiences using React and Angular. Developed asynchronous APIs using Slim PHP with non-blocking execution patterns. Refactored frontend architectures to improve maintainability, scalability, and performance.",
 
     "stadistics.projects":"Finished Projects",
     "stadistics.awards":"Awards Won",
@@ -69,8 +77,18 @@
     "contact.email":"My email",
     "contact.location":"Location",
 
-    "other.projects-title":"Other projects",
-    "other.projects-sub":"Some concept ideas",
+    "other.projects-title":"AI-Powered ERP/CRM",
+    "other.projects-sub":"Transforming Business Systems with Intelligent Automation",
+
+    "ai-project.description":"Comprehensive transformation of the company's internal ERP/CRM system into an intelligent platform powered by AI. This solution integrates advanced AI capabilities across every layer of the platform, combining FastAPI backend intelligence with modern full-stack architecture.",
+    "ai-project.rag":"RAG Pipeline & Semantic Search",
+    "ai-project.rag-desc":"Designed and implemented RAG (Retrieval-Augmented Generation) pipelines with semantic search capabilities using Qdrant vector database, enabling intelligent data retrieval and context-aware responses.",
+    "ai-project.backend":"AI Backend Architecture",
+    "ai-project.backend-desc":"Built scalable AI backend services using FastAPI and Python, seamlessly integrated into full-stack architecture with Next.js and Angular frontends. Queries .NET business services, processes data through AI models, and delivers intelligent insights to users.",
+    "ai-project.mcp-agents":"MCP Agents & Automation",
+    "ai-project.mcp-agents-desc":"Developed Model Context Protocol (MCP) agents for workflow automation and external tool integration, enabling autonomous execution of complex business processes.",
+    "ai-project.data-management":"Data & Infrastructure",
+    "ai-project.data-management-desc":"Managed embeddings, logs, metrics and AI context using Qdrant and PostgreSQL. Deployed models on Microsoft AI Foundry as the corporate cloud infrastructure.",
 
     "reflection":"Success is: Knowing your purpose in life, Growing to reach your fullest potential, and Planting seeds that benefit others."
 }
