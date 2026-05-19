@@ -40,7 +40,7 @@
               "sourceMap": false,
               "namedChunks": false,
               "aot": true,
-              "baseHref": "https://github.com/sebastian-vargas/portfolio",
+              "baseHref": "/portfolio/",
               "budgets": [
                 {
                   "type": "initial",
@@ -106,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

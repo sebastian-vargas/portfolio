@@ -50,15 +50,11 @@ export class ProjectComponent {
     this.unSubscribe$.complete();
   }
 
-  scrollToPortfolio() : void {
-  this.router.navigate(['/home'], { queryParams: { scrollTo: 'portfolio' } }).then(() => {
-    // Espera que la ruta y la vista se carguen antes de hacer scroll
-    this.scrollToElementId('portfolio')
-  });
+  scrollToPortfolio(): void {
+    this.router.navigate(['/home'], { queryParams: { scrollTo: 'portfolio' } });
   }
 
-
-  scrollToElementId(idElement:string) : void {
+  scrollToElementId(idElement: string): void {
     setTimeout(() => {
       const element = document.getElementById(idElement);
       if (element) {

@@ -17,16 +17,16 @@
     "lets-connect":"Conectemonos",
 
     "about.who-am-i":"¿Quién soy?",
-    "about.profession":"Soy Johan Vargas, ingeniero de sistemas y computación.",
-    "about.description":"Ingeniero de Sistemas y Computación, apasionado por el diseño, la optimización y la creación de soluciones sólidas y escalables. Me motiva el trabajo en equipo, la estructuración eficiente de proyectos y fomentar buenas prácticas de desarrollo que impacten positivamente en los resultados. Creo firmemente que el trabajo en equipo es esencial para lograr soluciones innovadoras, ya que las ideas compartidas y la colaboración son la clave para enfrentar los desafíos más complejos. Estoy comprometido con la mejora constante de la experiencia del usuario y la innovación, asegurándome de que los sistemas no solo sean técnicamente robustos, sino también intuitivos, accesibles y centrados en las necesidades reales de las personas. (Esta página está desarrollada en Angular 19, versión lanzada en noviembre de 2024 por Google).",
+    "about.profession":"Soy Johan Vargas, AI Engineer & Full Stack Engineer.",
+    "about.description":"Ingeniero de Sistemas y Computación con más de 6 años de experiencia construyendo productos digitales escalables, aplicaciones empresariales y sistemas potenciados por IA. Especializado en integraciones con LLMs, RAG (Retrieval-Augmented Generation), búsqueda semántica, agentes de IA y arquitecturas backend inteligentes usando Python, FastAPI, Qdrant y Microsoft Azure AI Foundry. Experiencia sólida diseñando aplicaciones full-stack modernas con React, Next.js, Angular, Node.js y TypeScript — combinando arquitecturas frontend escalables con sistemas backend robustos e infraestructura cloud.",
     "about.connect-with-me":"Contáctame",
 
     "services.web-development": "Desarrollo Web",
     "services.software-architecture": "Arquitectura de Software",
-    "services.mobile-development": "Desarrollo Móvil",
+    "services.ai-engineering": "Ingeniería de IA",
     "services.data-base": "Bases de Datos",
-    "services.design": "Diseño UX/UI",
-    "services.data-analysis": "Análisis de Datos",
+    "services.cloud-devops": "Cloud & DevOps",
+    "services.mobile-development": "Desarrollo Móvil",
     "services.title-im-good-at":"En lo que destaco",
 
     "portfolio.title-check":"Echa un vistazo a mi portafolio",
@@ -35,17 +35,25 @@
     "clients.title-client":"Clientes recientes",
 
     "work.title-experience":"Mi experiencia laboral",
-    "work.heinsohn-time":"Dic 2021 - Actualidad",
-    "work.heinsohn-position":"Ingeniero de desarrollo",
-    "work.heinsohn":"Mejoré la eficiencia y escalabilidad de los sistemas implementando módulos transversales, programación reactiva y principios SOLID. Establecí bases para micro frontends y optimicé el código y rendimiento, reduciendo tiempos de respuesta y aumentando la estabilidad. Capacité a nuevos colaboradores y promoví mejores prácticas. Trabajé en equipo para identificar mejoras y gestionar proyectos, mejorando la colaboración y asegurando resultados de calidad.",
+    "work.boz-ai-time":"Abr 2026 - Actualidad",
+    "work.boz-ai-position":"AI Engineer | Full Stack Engineer",
+    "work.boz-ai":"Liderando la transformación del ERP/CRM de la empresa en una plataforma potenciada por IA, integrando flujos inteligentes y funcionalidades impulsadas por IA. Diseñé e implementé pipelines RAG con búsqueda semántica usando Qdrant. Construí servicios backend de IA con Python y FastAPI integrados en arquitecturas full-stack. Desarrollo de agentes de IA usando MCP para automatizar flujos de trabajo.",
+
+    "work.boz-senior-time":"Abr 2025 - Mar 2026",
+    "work.boz-senior-position":"Senior Software Engineer",
+    "work.boz-senior":"Lideré la modernización y rediseño arquitectónico completo del ERP/CRM interno usando Next.js, React, .NET y Node.js. Refactoricé una plataforma legacy a una arquitectura moderna y escalable en poco más de un mes. Introduje flujos de trabajo impulsados por IA y automatización inteligente, creando la base técnica para las iniciativas de IA de la empresa.",
+
+    "work.heinsohn-time":"Dic 2021 - Mar 2025",
+    "work.heinsohn-position":"Senior Software Engineer",
+    "work.heinsohn":"Desarrollé aplicaciones web empresariales usando Angular, TypeScript, Node.js y arquitecturas frontend escalables. Implementé soluciones de microfrontends y programación reactiva, reduciendo tiempos de carga un 30%. Optimicé gestión de memoria y apliqué patrones de diseño, reduciendo fugas de memoria un 40%. Lideré capacitaciones y promoví mejores prácticas de desarrollo.",
 
     "work.devpro-time":"Jun 2020 - Dic 2021",
-    "work.devpro-position":"Desarrollador Full Stack",
-    "work.devpro":"Desarrollé y desplegué soluciones full-stack utilizando tecnologías como ReactJs, AngularJs, Ionic y PHP, creando aplicaciones para plataformas web, iOS y Android. Implementé metodologías ágiles para la entrega de proyectos y capacité a desarrolladores en los frameworks Ionic y Angular. Además, optimicé el consumo de APIs mediante el modelado de datos y diseñé herramientas que mejoraron la colaboración y productividad de los equipos de tecnología. También, construí interfaces de usuario (UI) centradas en la experiencia de usuario (UX), siguiendo los diseños proporcionados.",
+    "work.devpro-position":"Full Stack Software Engineer",
+    "work.devpro":"Desarrollé aplicaciones full-stack usando React, Angular, Ionic, Node.js y TypeScript para múltiples proyectos. Diseñé y optimicé servicios backend con Node.js y REST APIs, mejorando el rendimiento del servidor un 25%. Implementé pipelines CI/CD y propuse herramientas internas que incrementaron la productividad del equipo un 20%.",
 
     "work.idea-time":"Ene 2020 - Jun 2020",
-    "work.idea-position":"Desarrollador Frontend",
-    "work.idea":"Colaboré estrechamente con los equipos para asegurar que las soluciones de software ofrecieran una experiencia superior para el cliente. Lideré iniciativas junto al equipo de diseño para mejorar el proceso de diseño de la empresa y creé prototipos de nuevas funcionalidades. Realicé pruebas de rendimiento y optimización",
+    "work.idea-position":"Software Developer",
+    "work.idea":"Construí prototipos frontend y mejoré experiencias UX/UI usando React y Angular. Desarrollé APIs asíncronas con Slim PHP implementando patrones de ejecución no bloqueante. Refactoricé arquitecturas frontend para mejorar mantenibilidad, escalabilidad y rendimiento.",
 
     "stadistics.projects": "Proyectos Terminados",
     "stadistics.awards": "Premios Ganados",
@@ -69,8 +77,18 @@
     "contact.email":"Mi correo",
     "contact.location":"Ubicación",
 
-    "other.projects-title":"Otros Proyectos",
-    "other.projects-sub":"algunas ideas de concepto",
+    "other.projects-title":"ERP/CRM Potenciado con IA",
+    "other.projects-sub":"Transformando Sistemas de Negocios con Automatización Inteligente",
+
+    "ai-project.description":"Transformación integral del sistema ERP/CRM interno de la empresa en una plataforma inteligente potenciada por IA. Esta solución integra capacidades avanzadas de IA en cada capa de la plataforma, combinando inteligencia de backend con FastAPI y arquitectura full-stack moderna.",
+    "ai-project.rag":"Pipeline RAG & Búsqueda Semántica",
+    "ai-project.rag-desc":"Diseño e implementación de pipelines RAG (Retrieval-Augmented Generation) con capacidades de búsqueda semántica usando base de datos vectorial Qdrant, permitiendo recuperación inteligente de datos y respuestas conscientes del contexto.",
+    "ai-project.backend":"Arquitectura Backend de IA",
+    "ai-project.backend-desc":"Construcción de servicios backend escalables de IA usando FastAPI y Python, integrados sin fricciones en arquitectura full-stack con frontends en Next.js y Angular. Consulta servicios de negocio .NET, procesa datos mediante modelos de IA y entrega insights inteligentes al usuario.",
+    "ai-project.mcp-agents":"Agentes MCP y Automatización",
+    "ai-project.mcp-agents-desc":"Desarrollo de agentes Model Context Protocol (MCP) para automatización de flujos de trabajo e integración con herramientas externas, habilitando ejecución autónoma de procesos empresariales complejos.",
+    "ai-project.data-management":"Datos e Infraestructura",
+    "ai-project.data-management-desc":"Gestión de embeddings, logs, métricas y contexto de IA usando Qdrant y PostgreSQL. Modelos desplegados en Microsoft AI Foundry como infraestructura cloud corporativa.",
 
     "reflection":"Éxito es: Conocer tu propósito en la vida, Crecer hasta alcanzar tu máximo potencial, y Plantar semillas que beneficien a otros"
 }

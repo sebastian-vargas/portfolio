@@ -1,4 +1,5 @@
-import { Component, Input, SimpleChanges } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { AboutComponent } from "@pages/about/about.component";
 import { ServicesComponent } from '@pages/services/services.component';
 import { PortfolioComponent } from "@pages/portfolio/portfolio.component";
@@ -8,6 +9,7 @@ import { StatisticsComponent } from "@pages/statistics/statistics.component";
 import { BlogComponent } from "@pages/blog/blog.component";
 import { ContactComponent } from "@pages/contact/contact.component";
 import { OtherProjectsComponent } from '../other-projects/other-projects.component';
+import { Subject, takeUntil } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -24,11 +26,30 @@ import { OtherProjectsComponent } from '../other-projects/other-projects.compone
   ],
   templateUrl: './home.component.html'
 })
-/**
- * @description HomeComponent contiene las paginas a mostrar, al tener un identificador cada pagina
- * el menuComponent hace un scrollIntoView de tipo smooth hacia ese identificador
- * por lo cual no es necesario hacer uso de @Input o @Output ya que al estar en la misma hoja en el DOM
- * toma la navegación hacia el componente
- * 
- */
-export class HomeComponent {}
+export class HomeComponent implements OnInit, OnDestroy {
+  private destroy$ = new Subject<void>();
+
+  constructor(private route: ActivatedRoute) {}
+
+  ngOnInit(): void {
+    this.route.queryParams.pipe(takeUntil(this.destroy$)).subscribe(params => {
+      if (params['scrollTo']) {
+        this.scrollWithRetry(params['scrollTo']);
+      }
+    });
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
+  }
+
+  private scrollWithRetry(elementId: string, attempts = 0): void {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else if (attempts < 10) {
+      setTimeout(() => this.scrollWithRetry(elementId, attempts + 1), 100);
+    }
+  }
+}

@@ -6,19 +6,76 @@
         {{'other.projects-sub'|translate}}
     </h4>
 
-    <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2 justify-items-center"
-        >
-        <div *ngFor="let project of projectList" class="max-w-sm mx-5 rounded overflow-hidden shadow-lg bg-white mt-6">
-            <div class="w-full h-auto">
-                <video controls class="w-full h-full object-cover" poster="{{project.poster}}">
-                    <source src="{{project.video}}" type="video/mp4" />
-                </video>
+    <!-- Project Description -->
+    <div class="mx-auto w-full sm:w-3/4 pt-12 pb-12">
+        <p class="text-center text-gray-700 text-lg leading-relaxed">
+            {{'ai-project.description'|translate}}
+        </p>
+    </div>
+
+    <!-- Architecture Images -->
+    <div class="mx-auto grid w-full grid-cols-1 gap-4 pb-12 sm:w-3/4 md:gap-6 lg:w-full lg:grid-cols-2 justify-items-center">
+        <div class="w-full max-w-md cursor-pointer transform transition-transform hover:scale-105" (click)="openImageModal('assets/img/projects/ai/arquitecture-ai-1.png')">
+            <img src="assets/img/projects/ai/arquitecture-ai-1.png" alt="AI Architecture 1" class="w-full h-auto rounded shadow-lg" />
+        </div>
+        <div class="w-full max-w-md cursor-pointer transform transition-transform hover:scale-105" (click)="openImageModal('assets/img/projects/ai/arquitecture-ai-2.png')">
+            <img src="assets/img/projects/ai/arquitecture-ai-2.png" alt="AI Architecture 2" class="w-full h-auto rounded shadow-lg" />
+        </div>
+    </div>
+
+    <!-- Technical Features -->
+    <div class="mx-auto w-full sm:w-3/4 lg:w-full px-4 py-12">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 px-4 py-8">
+            <!-- RAG Pipeline -->
+            <div class="rounded-lg border-l-4 border-primary bg-white p-8 shadow-md">
+                <h3 class="mb-3 font-header text-xl font-semibold text-primary">
+                    {{'ai-project.rag'|translate}}
+                </h3>
+                <p class="text-gray-700">
+                    {{'ai-project.rag-desc'|translate}}
+                </p>
             </div>
-    
-            <div class="px-6 py-4">
-                <p class="text-gray-700 text-base">{{ currentLanguage === 'en' ? project.description.en : project.description.es }}</p>
+
+            <!-- Backend Architecture -->
+            <div class="rounded-lg border-l-4 border-primary bg-white p-8 shadow-md">
+                <h3 class="mb-3 font-header text-xl font-semibold text-primary">
+                    {{'ai-project.backend'|translate}}
+                </h3>
+                <p class="text-gray-700">
+                    {{'ai-project.backend-desc'|translate}}
+                </p>
+            </div>
+
+            <!-- MCP Agents -->
+            <div class="rounded-lg border-l-4 border-primary bg-white p-8 shadow-md">
+                <h3 class="mb-3 font-header text-xl font-semibold text-primary">
+                    {{'ai-project.mcp-agents'|translate}}
+                </h3>
+                <p class="text-gray-700">
+                    {{'ai-project.mcp-agents-desc'|translate}}
+                </p>
+            </div>
+
+            <!-- Data Management -->
+            <div class="rounded-lg border-l-4 border-primary bg-white p-8 shadow-md">
+                <h3 class="mb-3 font-header text-xl font-semibold text-primary">
+                    {{'ai-project.data-management'|translate}}
+                </h3>
+                <p class="text-gray-700">
+                    {{'ai-project.data-management-desc'|translate}}
+                </p>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Image Modal -->
+<div *ngIf="selectedImage" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75" (click)="closeImageModal()">
+    <div class="relative max-w-4xl max-h-[90vh]" (click)="$event.stopPropagation()">
+        <img [src]="selectedImage" alt="Enlarged architecture" class="w-full h-auto rounded shadow-2xl" />
+        <button (click)="closeImageModal()" class="absolute top-4 right-4 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition-colors text-2xl font-bold">
+            ×
+        </button>
     </div>
 </div>
 

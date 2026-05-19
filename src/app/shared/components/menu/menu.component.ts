@@ -27,9 +27,7 @@ export class MenuComponent {
   }
 
   triggerNavItem(id: string): void {
-    this.router.navigate(['/home']);
-    setTimeout(() => {
-      document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
-    }, 10);
+    const sectionId = id.replace('#', '');
+    this.router.navigate(['/home'], { queryParams: { scrollTo: sectionId } });
   }
 }

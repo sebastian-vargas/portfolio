@@ -3,56 +3,70 @@
 </div>
 
 
-@defer (hydrate on viewport) {
 <div id="services">
-    <app-services></app-services>
+    @defer (on viewport) {
+        <app-services></app-services>
+    } @placeholder {
+        <div class="h-80"></div>
+    }
 </div>
-}
 
-@defer (hydrate on viewport) {
-    <div id="portfolio">
+<div id="portfolio">
+    @defer (on viewport) {
         <app-portfolio></app-portfolio>
-    </div>
-}@loading {
-    <div class="skeleton-loader h-80 w-full bg-gray-200 animate-pulse"></div>
-}
+    } @placeholder {
+        <div class="h-80 w-full bg-gray-200 animate-pulse"></div>
+    }
+</div>
 
 
-@defer (hydrate on viewport) {
-    <div id="clients">
+<div id="clients">
+    @defer (on viewport) {
         <app-clients></app-clients>
-    </div>
-}
+    } @placeholder {
+        <div class="h-40"></div>
+    }
+</div>
 
 
-@defer (hydrate on viewport) {
 <div id="work">
-    <app-work></app-work>
+    @defer (on viewport) {
+        <app-work></app-work>
+    } @placeholder {
+        <div class="h-80"></div>
+    }
 </div>
-}
 
-@defer (hydrate on viewport) {
-    <div id="other-projects">
+<div id="other-projects">
+    @defer (on viewport) {
         <app-other-projects></app-other-projects>
-    </div>
-}
+    } @placeholder {
+        <div class="h-80"></div>
+    }
+</div>
 
-@defer (hydrate on viewport) {
 <div id="statistics">
-    <app-statistics></app-statistics>
+    @defer (on viewport) {
+        <app-statistics></app-statistics>
+    } @placeholder {
+        <div class="h-40"></div>
+    }
 </div>
-}
 
 
-@defer (hydrate on viewport) {
 <div id="blog">
-    <app-blog></app-blog>
+    @defer (on viewport) {
+        <app-blog></app-blog>
+    } @placeholder {
+        <div class="h-80"></div>
+    }
 </div>
-}
 
 
-@defer (hydrate on viewport) {
 <div id="contact">
-    <app-contact></app-contact>
+    @defer (on viewport) {
+        <app-contact></app-contact>
+    } @placeholder {
+        <div class="h-60"></div>
+    }
 </div>
-}
