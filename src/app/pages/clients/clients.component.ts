@@ -7,7 +7,8 @@ import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'app-clients',
   imports: [CommonModule, TranslateModule],
-  templateUrl: './clients.component.html'
+  templateUrl: './clients.component.html',
+  styleUrl: './clients.component.css'
 })
 export class ClientsComponent {
   companiesList: Company[] = [];
