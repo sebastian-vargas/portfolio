@@ -1,0 +1,94 @@
+{
+    "greeting.title":"Hola, soy",
+    "languaje":"Español",
+
+    "button.go-back":"Volver",
+
+    "menu.about":"Sobre mi",
+    "menu.services":"Servicios",
+    "menu.portfolio":"Portafolio",
+    "menu.clients":"Clientes",
+    "menu.work":"Trabajo",
+    "menu.stadistics":"Estadísticas",
+    "menu.blog":"Blog",
+    "menu.contact":"Contacto",
+    "menu.other-projects":"Otros proyectos",
+
+    "lets-connect":"Conectemonos",
+
+    "about.who-am-i":"¿Quién soy?",
+    "about.profession":"Soy Johan Vargas, AI Engineer & Full Stack Engineer.",
+    "about.description":"Ingeniero de Sistemas y Computación con más de 6 años de experiencia construyendo productos digitales escalables, aplicaciones empresariales y sistemas potenciados por IA. Especializado en integraciones con LLMs, RAG (Retrieval-Augmented Generation), búsqueda semántica, agentes de IA y arquitecturas backend inteligentes usando Python, FastAPI, Qdrant y Microsoft Azure AI Foundry. Experiencia sólida diseñando aplicaciones full-stack modernas con React, Next.js, Angular, Node.js y TypeScript — combinando arquitecturas frontend escalables con sistemas backend robustos e infraestructura cloud.",
+    "about.connect-with-me":"Contáctame",
+
+    "services.web-development": "Desarrollo Web",
+    "services.software-architecture": "Arquitectura de Software",
+    "services.ai-engineering": "Ingeniería de IA",
+    "services.data-base": "Bases de Datos",
+    "services.cloud-devops": "Cloud & DevOps",
+    "services.mobile-development": "Desarrollo Móvil",
+    "services.title-im-good-at":"En lo que destaco",
+
+    "portfolio.title-check":"Echa un vistazo a mi portafolio",
+    "portfolio.subtitle-have-done":"Esto es lo que he conseguido en el camino",
+
+    "clients.title-client":"Clientes recientes",
+
+    "work.title-experience":"Mi experiencia laboral",
+    "work.boz-ai-time":"Abr 2026 - Actualidad",
+    "work.boz-ai-position":"AI Engineer | Full Stack Engineer",
+    "work.boz-ai":"Liderando la transformación del ERP/CRM de la empresa en una plataforma potenciada por IA, integrando flujos inteligentes y funcionalidades impulsadas por IA. Diseñé e implementé pipelines RAG con búsqueda semántica usando Qdrant. Construí servicios backend de IA con Python y FastAPI integrados en arquitecturas full-stack. Desarrollo de agentes de IA usando MCP para automatizar flujos de trabajo.",
+
+    "work.boz-senior-time":"Abr 2025 - Mar 2026",
+    "work.boz-senior-position":"Senior Software Engineer",
+    "work.boz-senior":"Lideré la modernización y rediseño arquitectónico completo del ERP/CRM interno usando Next.js, React, .NET y Node.js. Refactoricé una plataforma legacy a una arquitectura moderna y escalable en poco más de un mes. Introduje flujos de trabajo impulsados por IA y automatización inteligente, creando la base técnica para las iniciativas de IA de la empresa.",
+
+    "work.heinsohn-time":"Dic 2021 - Mar 2025",
+    "work.heinsohn-position":"Senior Software Engineer",
+    "work.heinsohn":"Desarrollé aplicaciones web empresariales usando Angular, TypeScript, Node.js y arquitecturas frontend escalables. Implementé soluciones de microfrontends y programación reactiva, reduciendo tiempos de carga un 30%. Optimicé gestión de memoria y apliqué patrones de diseño, reduciendo fugas de memoria un 40%. Lideré capacitaciones y promoví mejores prácticas de desarrollo.",
+
+    "work.devpro-time":"Jun 2020 - Dic 2021",
+    "work.devpro-position":"Full Stack Software Engineer",
+    "work.devpro":"Desarrollé aplicaciones full-stack usando React, Angular, Ionic, Node.js y TypeScript para múltiples proyectos. Diseñé y optimicé servicios backend con Node.js y REST APIs, mejorando el rendimiento del servidor un 25%. Implementé pipelines CI/CD y propuse herramientas internas que incrementaron la productividad del equipo un 20%.",
+
+    "work.idea-time":"Ene 2020 - Jun 2020",
+    "work.idea-position":"Software Developer",
+    "work.idea":"Construí prototipos frontend y mejoré experiencias UX/UI usando React y Angular. Desarrollé APIs asíncronas con Slim PHP implementando patrones de ejecución no bloqueante. Refactoricé arquitecturas frontend para mejorar mantenibilidad, escalabilidad y rendimiento.",
+
+    "stadistics.projects": "Proyectos Terminados",
+    "stadistics.awards": "Premios Ganados",
+    "stadistics.clients": "Clientes Satisfechos",
+    "stadistics.bugs": "Bugs Corregidos",
+
+    "blog.neural":"Neurociencia",
+    "blog.neural-description":"En los libros La vida secreta de la mente y El poder de las palabras de Mariano Sigman, me ha gustado cómo aborda, desde una perspectiva científica y personal, el tema de la neurociencia, un campo que considero muy importante para entender cómo funciona nuestra mente en el día a día, tanto en nuestras decisiones, emociones, lo racional y lo subconsciente.",
+    
+    "blog.space":"Espacio",
+    "blog.space-description":"Me gusta el espacio y el telescopio James Webb porque ofrecen una oportunidad única para explorar el universo. El James Webb, con su capacidad avanzada para observar el cosmos en longitudes de onda infrarrojas, nos permite ver más allá de lo que otros telescopios han podido. Sus imágenes de galaxias lejanas y exoplanetas nos acercan a una comprensión más profunda del universo.",
+
+    "blog.ia":"IA",
+    "blog.ia-description":"La energía nuclear, con su capacidad de ofrecer energía continua y potente, es crucial para alimentar los sistemas de IA que demandan grandes cantidades de poder. Esta sinergia no solo impulsaría el avance tecnológico, sino que también podría ser la clave para un futuro más inteligente y sostenible.",
+
+    "blog.read-more":"Leer más",
+    "blog.like":"También me gusta",
+
+    "contact.information":"Información de contacto",
+    "contact.phone":"Mi teléfono",
+    "contact.email":"Mi correo",
+    "contact.location":"Ubicación",
+
+    "other.projects-title":"ERP/CRM Potenciado con IA",
+    "other.projects-sub":"Transformando Sistemas de Negocios con Automatización Inteligente",
+
+    "ai-project.description":"Transformación integral del sistema ERP/CRM interno de la empresa en una plataforma inteligente potenciada por IA. Esta solución integra capacidades avanzadas de IA en cada capa de la plataforma, combinando inteligencia de backend con FastAPI y arquitectura full-stack moderna.",
+    "ai-project.rag":"Pipeline RAG & Búsqueda Semántica",
+    "ai-project.rag-desc":"Diseño e implementación de pipelines RAG (Retrieval-Augmented Generation) con capacidades de búsqueda semántica usando base de datos vectorial Qdrant, permitiendo recuperación inteligente de datos y respuestas conscientes del contexto.",
+    "ai-project.backend":"Arquitectura Backend de IA",
+    "ai-project.backend-desc":"Construcción de servicios backend escalables de IA usando FastAPI y Python, integrados sin fricciones en arquitectura full-stack con frontends en Next.js y Angular. Consulta servicios de negocio .NET, procesa datos mediante modelos de IA y entrega insights inteligentes al usuario.",
+    "ai-project.mcp-agents":"Agentes MCP y Automatización",
+    "ai-project.mcp-agents-desc":"Desarrollo de agentes Model Context Protocol (MCP) para automatización de flujos de trabajo e integración con herramientas externas, habilitando ejecución autónoma de procesos empresariales complejos.",
+    "ai-project.data-management":"Datos e Infraestructura",
+    "ai-project.data-management-desc":"Gestión de embeddings, logs, métricas y contexto de IA usando Qdrant y PostgreSQL. Modelos desplegados en Microsoft AI Foundry como infraestructura cloud corporativa.",
+
+    "reflection":"Éxito es: Conocer tu propósito en la vida, Crecer hasta alcanzar tu máximo potencial, y Plantar semillas que beneficien a otros"
+}
