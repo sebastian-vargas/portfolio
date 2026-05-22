@@ -2,47 +2,22 @@
   display: block;
 }
 
-.clients-marquee {
+.marquee-track {
   display: flex;
+  align-items: center;
   width: max-content;
-  -webkit-animation: scroll 20s linear infinite;
-  animation: scroll 20s linear infinite;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  will-change: transform;
 }
 
-@-webkit-keyframes scroll {
-  from {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
+.marquee-item {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 12px;
 }
 
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-@media (max-width: 640px) {
-  .clients-marquee {
-    -webkit-animation-duration: 12s;
-    animation-duration: 12s;
-  }
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .clients-marquee:hover {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
+@media (min-width: 640px) {
+  .marquee-item {
+    padding: 0 24px;
   }
 }
