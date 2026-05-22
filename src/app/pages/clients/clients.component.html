@@ -16,17 +16,16 @@
       class="marquee-track"
       (mouseenter)="onMouseEnter()"
       (mouseleave)="onMouseLeave()">
-      <ng-container *ngFor="let company of companiesList">
-        <span class="marquee-item">
+      <div #firstSet class="marquee-set">
+        <span *ngFor="let company of companiesList" class="marquee-item">
           <img [src]="company.logo" [alt]="company.name + '-logo'" class="h-8 w-auto grayscale-logo sm:h-10 md:h-12" />
         </span>
-      </ng-container>
-      <!-- Duplicated for seamless loop -->
-      <ng-container *ngFor="let company of companiesList">
-        <span class="marquee-item">
+      </div>
+      <div class="marquee-set">
+        <span *ngFor="let company of companiesList" class="marquee-item">
           <img [src]="company.logo" [alt]="company.name + '-logo'" class="h-8 w-auto grayscale-logo sm:h-10 md:h-12" />
         </span>
-      </ng-container>
+      </div>
     </div>
   </div>
 </div>
